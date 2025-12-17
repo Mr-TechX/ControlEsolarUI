@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>SICeNet Login</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Portal estudiantil">  
+	    <meta name="author" content="TecNM Sur Guanajuato">
+        <meta name="keywords" content="Dashboard, calificaciones, portal, estudiantes">
+        <link rel="icon" type="image/ico" href="IMG/icn.png">
+        <link rel="stylesheet" href="CSS/login.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>ITSUR Login</h2>
+            <label>No.Control</label>
+            <input type="text" id="user" placeholder="Ingresa tu No. Control" />
+            <label>Contraseña</label>
+            <input type="password" id="pass" placeholder="Ingresa tu contraseña" />
+
+            <button onclick="login()">Ingresar</button>
+            <p id="error" class="error">Credenciales incorrectas</p>
+        </div>
+        <script src="JS/login.js"></script>
+    </body>
+</html>
