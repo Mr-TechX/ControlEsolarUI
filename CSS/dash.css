@@ -98,7 +98,7 @@ body {
 .progress-bar {
     width: 100%;
     height: 100%;
-    background: #4dff88;
+    background: #484848; /*Cambiar segun el progreso*/
 }
 
 footer {
