@@ -41,3 +41,11 @@ ctx.fillText("25%", 5, 115);
 ctx.fillText("50%", 5, 85);
 ctx.fillText("75%", 5, 55);
 ctx.fillText("100%", 5, 25);
+
+// Progress bar
+const text = document.getElementById("progress-text");
+const bar = document.querySelector(".progress-bar");
+
+let porcentaje = parseInt(text.textContent);
+
+bar.style.width = porcentaje + "%";
