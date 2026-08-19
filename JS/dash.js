@@ -1,3 +1,4 @@
+alert("El sistema ah sido actualizado, disculpe las molestias - ISC");
 if (sessionStorage.getItem("auth") !== "true") {
   window.location.href = "login.html";
 }
